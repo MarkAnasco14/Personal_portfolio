@@ -13,7 +13,7 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">markanasco55@gmail.com</a>
+          <a href="mailto:myemail@email.com">markanasco55</a>
         </li>
         <li className={styles.link}>
           <img
@@ -27,9 +27,12 @@ export const Contact = () => {
           <a href="https://github.com/MarkAnasco14">Mark Anasco</a>
         </li>
       </ul>
-      {/* <div className={styles.copyright}>
-        &copy; {new Date().getFullYear()} Mark Anasco. All rights reserved.
-      </div> */}
+
+       {/* Copyright Section */}
+       <div className={styles.copyright}>
+        <p>© 2025 Mark Anasco. All Rights Reserved.</p>
+      </div>
+      
     </footer>
   );
 };

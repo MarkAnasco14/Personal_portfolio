@@ -10,9 +10,9 @@
   {
     "title": "Benedicto College Grading System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This is our Capstone Project at Benedicto College",
     "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "demo": "https://bcgrading.netlify.app/",
     "source": "https://www.github.com"
   }
  

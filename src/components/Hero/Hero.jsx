@@ -7,7 +7,17 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Mark</h1>
+        <h1 className={styles.title}>Hey, I'm Mark</h1>
+        <div class="relative flex items-center">
+            
+            <span
+              class="w-2 h-2 bg-green-400 rounded-full inline-block"
+            ></span>
+        
+            <span
+              class="absolute w-2 h-2 bg-green-400 rounded-full animate-ping"
+            ></span>
+          </div>
         
         <p className={styles.description}>
         Hi! I'm a passionate Web Designer from Cebu, Philippines, with expertise as a Web Designer and WordPress Developer. I specialize in building visually appealing and user-friendly interfaces using my technology stack. My strengths include attention to detail and ability to deliver seamless user experiences. 
@@ -18,7 +28,7 @@ export const Hero = () => {
       </div>
       
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/Herosec.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

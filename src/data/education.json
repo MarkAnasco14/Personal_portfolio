@@ -1,0 +1,22 @@
+[
+    {
+      "institution": "Benedicto College",
+      "degree": "Supreme Student Council",
+      "startDate": "2022",
+      "endDate": "2025",
+      "imageSrc": "history/SSClogo.jpg"
+      
+    },
+    {
+      "institution": "Benedicto College",
+      "degree": "Information Technology",
+      "startDate": "2021",
+      "endDate": "2025",
+      "imageSrc": "history/BClogo.jpg",
+      "details": [
+        "Completed basic programming and web development courses.",
+        "Gained hands-on experience in network systems."
+      ]
+    }
+  ]
+  
