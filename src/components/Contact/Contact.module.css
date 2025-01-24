@@ -8,7 +8,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  height: 60vh;
+  padding: 88px 10%;
   gap: 10px;
 }
 
@@ -19,8 +20,8 @@
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 200;
   letter-spacing: 2px;
 }
 
@@ -35,14 +36,14 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 200;
   letter-spacing: 1.5px;
 }
 
